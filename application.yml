@@ -14,5 +14,5 @@ microservice:
         uri: http://PAYMENTS-SERVICE/payments/orders/pay
   products-service:
     endpoints:
-      retrieveOrder:
+      retrieveProduct:
         uri: http://PRODUCTS-SERVICE/products/%s
